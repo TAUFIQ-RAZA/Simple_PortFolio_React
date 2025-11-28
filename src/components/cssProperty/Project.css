@@ -1,0 +1,112 @@
+/* Section */
+.skill-section {
+  position: relative;
+  margin: 80px 0;
+  padding: 50px 0;
+  background: linear-gradient(135deg, #f8f9fa, #eef2f3);
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Heading */
+.heading {
+  font-size: 60px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 70px;
+  letter-spacing: 3px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Paragraph */
+.para {
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Grid layout */
+.projects-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 80px;
+  color: #000000;
+}
+
+/* Project Card (Same Style as Skill Card) */
+.project-card {
+  position: relative;
+  background: #ffffff;
+  padding: 25px 10px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+/* Hover Floating */
+.project-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Image */
+.project-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.15));
+  transition: transform 0.3s;
+}
+
+/* Image hover */
+.project-card:hover .project-img {
+  transform: scale(1.08);
+}
+
+/* Title */
+.project-title {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+/* Description */
+.project-text {
+  text-align: center;
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 15px;
+}
+
+/* Button */
+.project-body .btn {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./Images/tr_logo.avif";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -41,43 +42,46 @@ export default function NavBar() {
           {/* Menu Links */}
           <div className="collapse navbar-collapse" id="navbarNav">
             {/* Left side buttons */}
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul
+              className="navbar-nav me-auto mb-2 mb-lg-0"
+              style={{
+                fontFamily:
+                  "Franklin Gothic Medium, 'Arial Narrow', Arial, sans-serif",
+              }}
+            >
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" to="/Home">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
+                <Link className="nav-link active" to="/About">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#skills">
+                <Link className="nav-link active" to="/Skills">
                   Skills
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">
+                <Link className="nav-link active" to="/Projects">
                   Projects
-                </a>
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link" href="#experience">
+                <Link className="nav-link active" to="/Education">
                   Experience
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#education">
-                  Education
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link"
-                  href="#resume"
+                  className="btn btn-outline-info ms-2"
+                  href="/resume.pdf"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
+                  style={{ padding: "6px 15px" }}
                 >
                   Resume
                 </a>

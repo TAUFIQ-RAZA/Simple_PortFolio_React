@@ -1,0 +1,132 @@
+/* ===============================
+   TIMELINE SECTION
+================================ */
+.timeline-section {
+  padding: 40px 0;
+  color: white;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/* ===============================
+   TITLE
+================================ */
+.section-title {
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin:50px 50px;
+  letter-spacing: 3px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* ===============================
+   TIMELINE ITEM
+================================ */
+.timeline-item {
+  position: relative;
+  margin-bottom: 25px;
+  padding-left: 35px;
+}
+
+/* Vertical Line */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 3px;
+  width: 3px;
+  height: 90%;
+  background: #0ea5e9;
+}
+
+/* Dot */
+.dot {
+  width: 13px;
+  height: 13px;
+  background: #0ea5e9;
+  border-radius: 50%;
+  position: absolute;
+  left: 4px;
+  top: 0px;
+}
+
+/* ===============================
+   CARD
+================================ */
+.timeline-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 15px 18px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.year {
+  font-size: 13px;
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.desc {
+  font-size: 14px;
+  margin-top: 8px;
+  opacity: 0.85;
+  line-height: 20px;
+}
+
+/* ===============================
+   FULL RESPONSIVENESS
+   (Auto-fit, No scroll)
+================================ */
+@media (max-width: 900px) {
+  .section-title {
+    font-size: 40px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .timeline-section {
+    padding: 20px 10px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .timeline-item {
+    padding-left: 28px;
+  }
+
+  .timeline-item::before {
+    left: 7px;
+  }
+
+  .dot {
+    left: 0;
+  }
+
+  .title {
+    font-size: 17px;
+  }
+
+  .desc {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "./Images/HomeLogo.jpg";
+import avatar from "./Images/HomeLogo2.png";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
@@ -55,7 +55,7 @@ export default function Home() {
           {/* Social Icons */}
           <div className="mt-5 d-flex justify-content-center justify-content-lg-start">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/taufiq-raza"
               target="_blank"
               rel="noreferrer"
               className="me-4 text-light"
@@ -71,7 +71,7 @@ export default function Home() {
               <FaInstagram size={28} />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/TAUFIQ-RAZA"
               target="_blank"
               rel="noreferrer"
               className="me-4 text-light"
