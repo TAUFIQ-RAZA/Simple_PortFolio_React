@@ -5,18 +5,18 @@ import { FaCalendar } from "react-icons/fa";
 export default function Education() {
   const education = [
     {
-      year: "2017 - 2018",
-      title: "Master Degree – University",
+      year: "2024 - 2026",
+      title: "Master Degree – VTU University",
       desc: "As a front-end developer, I thrive on crafting responsive and visually appealing websites.",
     },
     {
-      year: "2018 - 2019",
-      title: "Master Degree – University",
+      year: "2020 - 2024",
+      title: "Bacholer Degree – VTU University",
       desc: "I work on responsive UI designs that adapt beautifully across devices.",
     },
     {
       year: "2019 - 2020",
-      title: "Master Degree – University",
+      title: "PUC  – Karnataka University",
       desc: "Passionate about design, usability, and interactive experiences.",
     },
   ];
