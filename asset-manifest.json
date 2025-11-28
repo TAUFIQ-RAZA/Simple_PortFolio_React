@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Simple_PortFolio_React/static/css/main.5ca2cf26.css",
+    "main.js": "/Simple_PortFolio_React/static/js/main.a56f6464.js",
+    "static/js/453.457dbc16.chunk.js": "/Simple_PortFolio_React/static/js/453.457dbc16.chunk.js",
+    "static/media/portfolio.png": "/Simple_PortFolio_React/static/media/portfolio.bda93859d3cfe27bdb33.png",
+    "static/media/HomeLogo2.png": "/Simple_PortFolio_React/static/media/HomeLogo2.b3197682801cce6330aa.png",
+    "static/media/fakeNews.webp": "/Simple_PortFolio_React/static/media/fakeNews.b2459853d749b9e5ded5.webp",
+    "static/media/calculator.jpg": "/Simple_PortFolio_React/static/media/calculator.397833efe7a4915ee16e.jpg",
+    "static/media/university.jpeg": "/Simple_PortFolio_React/static/media/university.209850f75c2ac8670751.jpeg",
+    "static/media/MongoDB.jpg": "/Simple_PortFolio_React/static/media/MongoDB.836f9307fef45e6ef17c.jpg",
+    "static/media/CSS.webp": "/Simple_PortFolio_React/static/media/CSS.84a6ccd3c0d630b9cb38.webp",
+    "static/media/myPhoto2.jpg": "/Simple_PortFolio_React/static/media/myPhoto2.95b22afd3071e8e2ebe6.jpg",
+    "static/media/REACT.png": "/Simple_PortFolio_React/static/media/REACT.c0e8ca45355fd1d3795b.png",
+    "static/media/NODEJS.jpg": "/Simple_PortFolio_React/static/media/NODEJS.7facd68f8a58c9ba44b8.jpg",
+    "static/media/bank.jpg": "/Simple_PortFolio_React/static/media/bank.31651d2d0c0d86ae0965.jpg",
+    "static/media/HTML.jpg": "/Simple_PortFolio_React/static/media/HTML.f8f69365b0a1b25cde3d.jpg",
+    "static/media/tr_logo.avif": "/Simple_PortFolio_React/static/media/tr_logo.122f9708bc8f7979eda9.avif",
+    "index.html": "/Simple_PortFolio_React/index.html",
+    "main.5ca2cf26.css.map": "/Simple_PortFolio_React/static/css/main.5ca2cf26.css.map",
+    "main.a56f6464.js.map": "/Simple_PortFolio_React/static/js/main.a56f6464.js.map",
+    "453.457dbc16.chunk.js.map": "/Simple_PortFolio_React/static/js/453.457dbc16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ca2cf26.css",
+    "static/js/main.a56f6464.js"
+  ]
+}
