@@ -82,7 +82,7 @@ export default function Projects() {
               skills, projects, education, and experience with smooth UI and
               custom animations.
             </p>
-            <a href="/" className="btn btn-primary">
+            <a href="https://github.com/TAUFIQ-RAZA/Simple_PortFolio_React.git" className="btn btn-primary">
               CODE
             </a>
           </div>

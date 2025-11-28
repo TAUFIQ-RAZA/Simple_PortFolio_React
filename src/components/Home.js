@@ -23,6 +23,7 @@ export default function Home() {
               fontWeight: "700",
               color: "rgb(235 238 246)",
               lineHeight: "1.2",
+              margin: "100px 50px"
             }}
           >
             Hi,

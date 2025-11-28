@@ -11,7 +11,8 @@ export default function About() {
         minHeight: "100vh",
         backgroundColor: "#fffaf6",
         color: "#222",
-        padding: "80px"
+        padding: "80px",
+        margin:"100px 50px"
       }}
     >
       {/* Left Side - Image */}

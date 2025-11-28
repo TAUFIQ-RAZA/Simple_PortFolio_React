@@ -78,7 +78,7 @@ export default function NavBar() {
               <li className="nav-item">
                 <a
                   className="btn btn-outline-info ms-2"
-                  href="/resume.pdf"
+                   href={`${process.env.PUBLIC_URL}/resume.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ padding: "6px 15px" }}
